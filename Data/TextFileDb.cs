@@ -8,11 +8,11 @@ namespace BikeRentalApp.Data
 {
     public static class TextFileDb
     {
-        private const string BikeFilePath = "bikes.json";
-        private const string UserFilePath = "users.json";
-        private const string RentFilePath = "rents.json";
-        private const string PaymentFilePath = "payments.json";
-        private const string LocationFilePath = "locations.json";
+        private const string BikeFilePath = "C:\\Users\\patyk\\OneDrive\\Pulpit\\Json\\bikes.json";
+        private const string UserFilePath = "C:\\Users\\patyk\\OneDrive\\Pulpit\\Json\\users.json";
+        private const string RentFilePath = "C:\\Users\\patyk\\OneDrive\\Pulpit\\Json\\rents.json";
+        private const string PaymentFilePath = "C:\\Users\\patyk\\OneDrive\\Pulpit\\Json\\payments.json";
+        private const string LocationFilePath = "C:\\Users\\patyk\\OneDrive\\Pulpit\\Json\\locations.json";
 
         private static readonly JsonSerializerOptions jsonOptions = new JsonSerializerOptions { WriteIndented = true };
 

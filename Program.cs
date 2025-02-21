@@ -1,4 +1,5 @@
 ﻿using System;
+using BikeRentalApp.Data;
 using BikeRentalApp.Services;
 
 namespace BikeRentalApp
@@ -44,7 +45,7 @@ namespace BikeRentalApp
                         if (int.TryParse(Console.ReadLine(), out int bikeId))
                             BikeService.DeleteBike(bikeId);
                         else
-                            Console.WriteLine("⚠️ Niepoprawne ID!");
+                            Console.WriteLine(" Niepoprawne ID!");
                         break;
 
                     case "4":
